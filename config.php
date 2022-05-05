@@ -7,8 +7,8 @@ define('DB_PASSWORD', 'root');
 define('DB_NAME', 'gdrive'); 
  
 // configuration for Google API connectivity
-define('GOOGLE_CLIENT_ID', '620123644339-pgmlq6ug84027b24phs33c28onfcq393.apps.googleusercontent.com'); 
-define('GOOGLE_CLIENT_SECRET', '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'); 
+define('GOOGLE_CLIENT_ID', ''); 
+define('GOOGLE_CLIENT_SECRET', ''); 
 define('GOOGLE_OAUTH_SCOPE', 'https://www.googleapis.com/auth/drive'); 
 define('REDIRECT_URI', 'http://localhost/gdrive/google_drive_sync.php'); 
  
